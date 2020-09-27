@@ -6,7 +6,6 @@ using System.Collections.Generic;
 /// @author mikar
 /// @version 26.3.2020
 /// <summary>
-/// Algoritmi 2 kurssin ohjelmointitehtävä 1
 /// Lajitellaan taulukko heapsort algoritmilla suuruusjärjestykseen
 /// pienimmästä suurimpaan.
 /// Algoritmin kertaluokka O(n log n).
