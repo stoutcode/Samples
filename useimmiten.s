@@ -1,6 +1,6 @@
 	.text
 	.global useimmiten
-# Käyttöjärjestelmät kurssin demo 6 tehtävää varten toteutettu aliohjelma, jota voi kutsua C-kielestä.
+# Aliohjelma, jota voi kutsua C-kielestä.
 # Esim. aliohjelmaa voitaisiin kutsua int useimmiten(FIle *fp, int eofmarket), jossa ensimmäinen
 # parametri olisi tiedosto, joka luetaan ja toinen sen end-of-file merkki, eli merkki johon datan
 # lukeminen loppuu.
