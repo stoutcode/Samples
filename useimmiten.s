@@ -1,9 +1,9 @@
 	.text
 	.global useimmiten
-# Aliohjelma, jota voi kutsua C-kielestä.
-# Esim. aliohjelmaa voitaisiin kutsua int useimmiten(FIle *fp, int eofmarket), jossa ensimmäinen
-# parametri olisi tiedosto, joka luetaan ja toinen sen end-of-file merkki, eli merkki johon datan
-# lukeminen loppuu.
+# Aliohjelma, jota voi kutsua C-kielestä. Esim. aliohjelmaa voitaisiin kutsua 
+# int useimmiten(FIle *fp, int eofmarket), jossa ensimmäinen parametri olisi 
+# tiedosto, joka luetaan ja toinen sen end-of-file merkki, eli merkki johon datan
+# lukeminen loppuu. Laskee tiedoston sisältämät merkit ja palauttaa useimmin esiintyneen merkin.
 #
 # Toetutuksessa käytetään 64 bittisiä lukuja. Ohjelman käsittelemät rekisterit ovat x86-64
 # arkkitehtuurin prosessoreista. Ohjelma olettaa, että annettu syöte/tiedosto sisältää vain 
@@ -39,8 +39,6 @@ taulukonNollaus:
 	cmpq	$256, %rax		;# Verrataan lukua 256 RAX indeksin arvoon
 	jl	taulukonNollaus		;# Jos rekisterin arvo oli pienempi kuin 256, niin jatketaan silmukkaa, koska taulukon alkioita
 					;# on vielä jäljellä.
-
-# Mallivastaus: http://users.jyu.fi/~nieminen/kj20/UnlockingTheTreasuresOfTheCore.html
 
 # Sitten käytetään c-kielen aliohjelmaa fgetc lukemaan merkit tiedostosta tai syötteestä merkki kerrallaan ja lisätään kyseisen merkin mukaiseen
 # indeksiin aina +1, kun sellainen löydetään.	
