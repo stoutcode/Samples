@@ -1,0 +1,123 @@
+body {
+    margin-left: 0;
+}
+
+li p {
+    padding: 0;
+    margin: 0;
+}
+
+.leaflet-tooltip.class-tooltip {
+    background-color: transparent;
+    border: 0px;
+    box-shadow: none;
+}
+
+.jListausDiv {
+    width: 100%;
+    height: 42vh;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.listaus {
+    list-style-type: none;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+.rListausDiv {
+    width: 100%;
+    height: 42vh;
+    border-style: solid;
+    border-width: 1px;
+    column-count: 4;
+    column-gap: 1vw;
+    text-align: left;
+}
+
+.karttaDiv {
+    width: 98vw;
+    height: 50vh;
+}
+
+.containerDiv {
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    width: 98vw;
+    height: 100%;
+}
+
+.joukkueetDiv {
+    text-align: center;
+    width: 22.5vw;
+    height: 100%;
+    margin-right: 1vw;
+    margin-left: 1vw;
+}
+
+.kartallaDiv {
+    text-align: center;
+    width: 50vw;
+    height: 100%;
+    margin-right:1vw;
+}
+
+.rastitDiv {
+    text-align: center;
+    width: 22.5vw;
+    height: 100%;
+}
+
+.kartallaDropDiv {
+    width: 100%;
+    height: 42vh;
+    border-style: solid;
+    border-width: 1px;
+    position: relative;
+}
+
+@media only screen and (max-width: 800px) {
+    .listaJoukkue {
+        font-size: 1.1vh;
+    }
+    
+    .listaRasti {
+        font-size: 1.1vh;
+    }
+
+}
+
+@media only screen and (min-width: 801px) {
+    .listaJoukkue {
+        font-size: 1.25vh;
+    }
+    
+    .listaRasti {
+        font-size: 1.25vh;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .listaJoukkue {
+        font-size: 1.35vh;
+    }
+    
+    .listaRasti {
+        font-size: 1.35vh;
+    }
+}
+
+@media only screen and (min-width: 1920px) {
+    .listaJoukkue {
+        font-size: 1.5vh;
+    }
+    
+    .listaRasti {
+        font-size: 1.5vh;
+    }
+}

@@ -1,0 +1,188 @@
+@charset "UTF-8";
+
+body {
+    margin: 0;
+    background-color: black;
+    overflow: hidden;
+}
+
+.containerDivi {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+@keyframes kiemurtelu { 
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+
+@media all {
+    .tekstiskrolleri {
+        font-size: 24px;
+    }
+}
+
+@media all and (min-width: 800px) {
+    .tekstiskrolleri {
+        font-size: 36px;
+    }
+}
+
+.tekstiskrolleri {
+    position: absolute;
+    color: white;
+    font-family: Arial;
+    text-align: center;
+    animation-name: scrollUpwards;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes scrollUpwards {
+    0% {
+        transform: translate(50vw, 100vh);
+    }
+    100% {
+        transform: translate(50vw, -20vh);
+    }
+}
+
+.pollot {
+    position: absolute;
+    margin: 0;
+    animation-duration: 5s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.pollo1 {
+    animation-name: pollo1;
+}
+
+.pollo2 {
+    animation-name: pollo2;
+}
+
+.pollo3 {
+    animation-name: pollo3;
+}
+
+.pollo4 {
+    animation-name: pollo4;
+}
+
+@keyframes pollo1 {
+    0% {
+        transform: translate(calc(50vw - 225px), calc(50vh - 225px));
+    }
+    100% {
+        transform: translate(0%, 0%);
+    }
+}
+
+@keyframes pollo2 {
+    0% {
+        transform: translate(calc(50vw - 75px), calc(50vh - 225px));
+    }
+    100% {
+        transform: translate(calc(100vw - 150px), 0vh);
+    }
+}
+
+@keyframes pollo3 {
+    0% {
+        transform: translate(calc(50vw - 75px), calc(50vh - 75px));
+    }
+    100% {
+        transform: translate(calc(100vw - 150px), calc(100vh - 150px));
+    }
+}
+
+@keyframes pollo4 {
+    0% {
+        transform: translate(calc(50vw - 225px), calc(50vh - 75px));
+    }
+    100% {
+        transform: translate(0%, calc(100vh - 150px));
+    }
+}
+
+
+.svgPohja {
+    position: absolute;
+}
+
+.pinkviini1 {
+    position: absolute;
+    animation-name: kulmastaKulmaan1;
+    animation-duration: 3s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.pinkviini2 {
+    position: absolute;
+    animation-name: kulmastaKulmaan2;
+    animation-duration: 3s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes kulmastaKulmaan1 {
+    0% {
+        transform: translate(0%, 0%);
+    }
+    50% {
+        transform: translate(calc(50% - 75px), calc(100% - 150px));
+    }
+    100% {
+        transform: translate(calc(100% - 150px), 0%);
+    }
+}
+
+@keyframes kulmastaKulmaan2 {
+    0% {
+        transform: translate(calc(100% - 150px), calc(100% - 150px));
+    }
+    50% {
+        transform: translate(calc(50% - 75px), 0% )
+    }
+    100% {
+        transform: translate(0%, calc(100% - 150px));
+    }
+}
+
+.palkki {
+    position: absolute;
+    height: 100%;
+    margin: 0;
+    animation-name: sivultaSivulle;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes sivultaSivulle {
+    0% {
+        transform: translateX(-5%);
+        width: 5%;
+    }
+    50% {
+        width: 10%;
+    }
+    100% {
+        width: 5%;
+        transform: translateX(102%);
+    }
+}

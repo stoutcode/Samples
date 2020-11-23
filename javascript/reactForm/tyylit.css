@@ -1,0 +1,61 @@
+.oikealle {
+    float: right;
+}
+
+.lohkolabel {
+    clear: both;
+    display: block;
+}
+
+.leimaustapaDiv {
+    margin-top: 5vh;
+    overflow: hidden;
+}
+
+.sarjaDiv {
+    margin-top: 2vh;
+    overflow: hidden;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.lomake {
+    width: 325px;
+    display: block;
+}
+
+.lomakeSisä {
+    width: 275px;
+    margin: 0;
+}
+
+.inputLeveammaksi {
+    width: 150px;
+}
+
+.listausDiv {
+    margin-left: 10vw;
+}
+
+@media all and (min-width: 600px) {
+
+    .lomake {
+        width: 550px;
+        display: block;
+    }
+
+    .lomakeSisä {
+        width: 475px;
+        margin: 0;
+    }
+
+    .inputLeveammaksi {
+        width: 200px;
+    }
+
+}

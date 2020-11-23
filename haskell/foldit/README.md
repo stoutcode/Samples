@@ -1,0 +1,1 @@
+Fold functions. Implementations for foldr, foldl, foldl\` and their usage.

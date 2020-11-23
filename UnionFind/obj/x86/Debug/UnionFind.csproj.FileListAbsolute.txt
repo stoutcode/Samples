@@ -1,6 +1,0 @@
-D:\kurssit\algoritmit\ohjelmointitehtavat\UnionFind\bin\Debug\UnionFind.exe
-D:\kurssit\algoritmit\ohjelmointitehtavat\UnionFind\bin\Debug\UnionFind.pdb
-D:\kurssit\algoritmit\ohjelmointitehtavat\UnionFind\obj\x86\Debug\UnionFind.csprojAssemblyReference.cache
-D:\kurssit\algoritmit\ohjelmointitehtavat\UnionFind\obj\x86\Debug\UnionFind.csproj.CoreCompileInputs.cache
-D:\kurssit\algoritmit\ohjelmointitehtavat\UnionFind\obj\x86\Debug\UnionFind.exe
-D:\kurssit\algoritmit\ohjelmointitehtavat\UnionFind\obj\x86\Debug\UnionFind.pdb

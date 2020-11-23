@@ -1,0 +1,5 @@
+:set -interactive-print=Text.Pretty.Simple.pPrint
+:set prompt "\n%s\n\ESC[0;34mTIEA341> \ESC[m"
+:set -XOverloadedStrings
+
+:set prompt "Plot twist > "

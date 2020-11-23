@@ -1,6 +1,0 @@
-D:\kurssit\algoritmit\ohjelmointitehtavat\Hajautus\bin\Debug\Hajautus.exe
-D:\kurssit\algoritmit\ohjelmointitehtavat\Hajautus\bin\Debug\Hajautus.pdb
-D:\kurssit\algoritmit\ohjelmointitehtavat\Hajautus\obj\x86\Debug\Hajautus.csprojAssemblyReference.cache
-D:\kurssit\algoritmit\ohjelmointitehtavat\Hajautus\obj\x86\Debug\Hajautus.csproj.CoreCompileInputs.cache
-D:\kurssit\algoritmit\ohjelmointitehtavat\Hajautus\obj\x86\Debug\Hajautus.exe
-D:\kurssit\algoritmit\ohjelmointitehtavat\Hajautus\obj\x86\Debug\Hajautus.pdb
