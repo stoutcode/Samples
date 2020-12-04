@@ -323,7 +323,7 @@ class App extends React.PureComponent {
             let uudetValinnat = this.state.checkbox.slice(0);
             // toimenpiteet sen mukaan oliko checkbox valittuna
             if (checked) {
-                uudetLeimaukset.push(value);
+                uudetLeimaukset.push(parseInt(value));
                 uudetValinnat.push("checkbox" + value);
             } else {
               // for silmukka on ilmeisesti nopeampi kuin indexOf menetelmä
